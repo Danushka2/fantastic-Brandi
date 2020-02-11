@@ -12,7 +12,7 @@ setOverlayHeight();
 setWorkNavigation();
 
 
-function setWorkNavigation(){
+function setWorkNavigation() {
   $(document).ready(function () {
     document.getElementById("allBtn").click();
     $(".sm-nav").click(function () {
@@ -52,6 +52,10 @@ function setSlider() {
       $(".regular").slick({
         dots: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        delay: 5000,
+        speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1
       });
@@ -61,6 +65,10 @@ function setSlider() {
       $(".regular2").slick({
         dots: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        delay: 5000,
+        speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1
       });
@@ -71,6 +79,10 @@ function setSlider() {
       $(".regular").slick({
         dots: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        delay: 5000,
+        speed: 700,
         slidesToShow: 3,
         slidesToScroll: 3
       });
@@ -80,6 +92,10 @@ function setSlider() {
       $(".regular2").slick({
         dots: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        delay: 5000,
+        speed: 700,
         slidesToShow: 4,
         slidesToScroll: 3
       });
